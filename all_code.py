@@ -255,5 +255,7 @@ if __name__=="__main__":
     main(sys.argv[1:])
     print("Finish!")
     
-    
+
+
+#per runnejar el codi utilitzem la següent línia
 #python all_code.py anova logisticregression largest_biological
