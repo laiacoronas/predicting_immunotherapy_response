@@ -1,0 +1,20 @@
+{
+    "Aggregation": "unweighted",
+    "Classiier": "xgb",
+    "Selector": "mrmr",
+    "Average_AUC": 0.6556372549019608,
+    "Standard_Deviation_AUC": 0.06756239772773734,
+    "Most_Common_Hyperparameters": {
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "n_estimators": 150,
+        "max_depth": 30
+    },
+    "Selected_Features": [
+        "original_shape_Flatness",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glcm_Correlation",
+        "original_shape_Elongation",
+        "original_glszm_SmallAreaEmphasis"
+    ]
+}

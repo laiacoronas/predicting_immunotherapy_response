@@ -1,0 +1,6 @@
+Fold,Features,Classifier_Params,AUC
+outer_fold_1,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'original_glszm_ZonePercentage', 'original_shape_Elongation']","{'n_estimators': 100, 'max_depth': 10}",0.5434173669467788
+outer_fold_2,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glszm_ZonePercentage', 'original_shape_Elongation', 'original_glszm_SizeZoneNonUniformityNormalized']","{'n_estimators': 50, 'max_depth': 20}",0.6794117647058823
+outer_fold_3,"['original_shape_Flatness', 'original_glszm_ZonePercentage', 'original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'original_glszm_SizeZoneNonUniformityNormalized']","{'max_depth': 20, 'n_estimators': 200}",0.7147058823529412
+outer_fold_4,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glszm_SizeZoneNonUniformityNormalized', 'original_shape_Elongation', 'original_glszm_ZonePercentage']","{'n_estimators': 50, 'max_depth': 20}",0.6441176470588236
+outer_fold_5,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glszm_ZonePercentage', 'original_shape_Elongation', 'original_glszm_SizeZoneNonUniformityNormalized']","{'max_depth': 20, 'n_estimators': 50}",0.824404761904762

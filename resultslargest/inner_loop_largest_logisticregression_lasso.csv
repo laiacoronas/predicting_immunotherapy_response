@@ -1,0 +1,69 @@
+Fold,Features,Classifier_Params,AUC
+outer_1_inner_1,"Index(['original_shape_SurfaceVolumeRatio', 'original_glszm_SmallAreaEmphasis'], dtype='object')","{'l1_ratio': 1, 'C': 1}",0.8035714285714286
+outer_1_inner_2,"Index(['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SmallAreaEmphasis', 'original_glszm_ZoneEntropy'],
+      dtype='object')","{'l1_ratio': 1, 'C': 1}",0.6651583710407241
+outer_1_inner_3,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 0.3, 'C': 10}",0.8009259259259259
+outer_1_inner_4,"Index(['original_shape_SurfaceVolumeRatio', 'original_glszm_SmallAreaEmphasis'], dtype='object')","{'l1_ratio': 0.3, 'C': 1}",0.7644230769230769
+outer_1_inner_5,"Index(['original_shape_SurfaceVolumeRatio', 'original_firstorder_90Percentile',
+       'original_gldm_LargeDependenceEmphasis',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 1, 'C': 1}",0.5588235294117647
+outer_2_inner_1,"Index(['original_shape_SurfaceVolumeRatio', 'original_glszm_SmallAreaEmphasis'], dtype='object')","{'l1_ratio': 0.3, 'C': 10}",0.669683257918552
+outer_2_inner_2,"Index(['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SmallAreaEmphasis', 'original_glszm_ZoneEntropy'],
+      dtype='object')","{'l1_ratio': 0.3, 'C': 1}",0.6923076923076923
+outer_2_inner_3,"Index(['original_shape_SurfaceVolumeRatio', 'original_glszm_SizeZoneNonUniformityNormalized'], dtype='object')","{'l1_ratio': 0.3, 'C': 10}",0.7824074074074074
+outer_2_inner_4,"Index(['original_shape_SurfaceVolumeRatio', 'original_glszm_SmallAreaEmphasis'], dtype='object')","{'l1_ratio': 0.3, 'C': 10}",0.6620370370370371
+outer_2_inner_5,"Index(['original_shape_SurfaceVolumeRatio', 'original_firstorder_90Percentile',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 0.3, 'C': 0.1}",0.7526315789473684
+outer_3_inner_1,"Index(['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio',
+       'original_gldm_LargeDependenceLowGrayLevelEmphasis',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 0.5, 'C': 0.1}",0.765
+outer_3_inner_2,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_DependenceNonUniformityNormalized',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 0.3, 'C': 1}",0.6349206349206349
+outer_3_inner_3,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized',
+       'original_glszm_ZoneEntropy'],
+      dtype='object')","{'l1_ratio': 0.3, 'C': 1}",0.6606334841628959
+outer_3_inner_4,"Index(['original_shape_SurfaceVolumeRatio', 'original_glszm_SmallAreaEmphasis',
+       'original_glszm_ZoneEntropy'],
+      dtype='object')","{'l1_ratio': 0.3, 'C': 10}",0.8190045248868778
+outer_3_inner_5,"Index(['original_shape_SurfaceVolumeRatio', 'original_firstorder_90Percentile',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 0.3, 'C': 0.1}",0.7333333333333333
+outer_4_inner_1,"Index(['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 1, 'C': 1}",0.7129186602870814
+outer_4_inner_2,"Index(['original_shape_SurfaceVolumeRatio', 'original_glszm_SizeZoneNonUniformityNormalized'], dtype='object')","{'l1_ratio': 0.3, 'C': 1}",0.76
+outer_4_inner_3,"Index(['original_shape_SurfaceVolumeRatio', 'original_glszm_SmallAreaEmphasis'], dtype='object')","{'l1_ratio': 0.5, 'C': 1}",0.8437500000000001
+outer_4_inner_4,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glszm_SizeZoneNonUniformityNormalized',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 0.3, 'C': 0.1}",0.7366071428571429
+outer_4_inner_5,"Index(['original_shape_SurfaceVolumeRatio', 'original_glrlm_ShortRunEmphasis',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 0.3, 'C': 1}",0.6363636363636364
+outer_5_inner_1,"Index(['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 0.5, 'C': 1}",0.61
+outer_5_inner_2,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 1, 'C': 1}",0.8959276018099547
+outer_5_inner_3,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 0.5, 'C': 1}",0.6116071428571429
+outer_5_inner_4,"Index(['original_shape_SurfaceVolumeRatio', 'original_glrlm_ShortRunEmphasis',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'l1_ratio': 0.3, 'C': 1}",0.8055555555555557
+outer_5_inner_5,"Index(['original_shape_SurfaceVolumeRatio', 'original_glszm_SmallAreaEmphasis'], dtype='object')","{'l1_ratio': 0.5, 'C': 0.1}",0.7211538461538461

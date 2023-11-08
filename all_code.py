@@ -27,7 +27,8 @@ def fsel(X, y, sel, inner_cv):
             }
         rs = RandomizedSearchCV(selector, param_distributions=param_distributions, n_iter=3, scoring='roc_auc', cv=inner_cv, random_state=59)
         rs.fit(X, y.values.ravel())
-        selected_features = X.columns[rs.best_estimator_.named_steps['selector'].get_support()]
+        #selected_features = X.columns[rs.best_estimator_.named_steps['selector'].get_support()]
+        selected_features = X.columns[rs.best_estimator_.get_support()]
 
     elif sel=="anova":
         selector = SelectKBest(score_func=f_classif, k=5)

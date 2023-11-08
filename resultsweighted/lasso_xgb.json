@@ -1,0 +1,20 @@
+{
+    "Aggregation": "weighted",
+    "Classiier": "xgb",
+    "Selector": "lasso",
+    "Average_AUC": 0.6778991596638655,
+    "Standard_Deviation_AUC": 0.07714038552639646,
+    "Most_Common_Hyperparameters": {
+        "subsample": 0.8,
+        "max_depth": 20,
+        "n_estimators": 150,
+        "learning_rate": 0.2
+    },
+    "Selected_Features": [
+        "original_shape_Flatness",
+        "weight",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glszm_SizeZoneNonUniformityNormalized",
+        "original_glcm_Correlation"
+    ]
+}

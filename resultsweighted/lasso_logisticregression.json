@@ -1,0 +1,18 @@
+{
+    "Aggregation": "weighted",
+    "Classiier": "logisticregression",
+    "Selector": "lasso",
+    "Average_AUC": 0.7846218487394958,
+    "Standard_Deviation_AUC": 0.05528234927651972,
+    "Most_Common_Hyperparameters": {
+        "l1_ratio": 0.3,
+        "C": 10.0
+    },
+    "Selected_Features": [
+        "original_shape_Flatness",
+        "weight",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glszm_SizeZoneNonUniformityNormalized",
+        "original_glcm_Correlation"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "Aggregation": "3largest",
+    "Classiier": "randomf",
+    "Selector": "lasso",
+    "Average_AUC": 0.7408053221288515,
+    "Standard_Deviation_AUC": 0.05277402640195725,
+    "Most_Common_Hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 20
+    },
+    "Selected_Features": [
+        "original_shape_Flatness",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glszm_SizeZoneNonUniformityNormalized",
+        "original_glszm_ZonePercentage",
+        "original_glszm_SmallAreaEmphasis"
+    ]
+}

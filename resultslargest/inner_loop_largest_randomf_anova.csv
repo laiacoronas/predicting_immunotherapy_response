@@ -1,0 +1,129 @@
+Fold,Features,Classifier_Params,AUC
+outer_1_inner_1,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_ZonePercentage',
+       'original_ngtdm_Coarseness'],
+      dtype='object')","{'n_estimators': 100, 'max_depth': 20}",0.7767857142857142
+outer_1_inner_2,"Index(['original_shape_Elongation', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceLowGrayLevelEmphasis',
+       'original_glszm_ZoneEntropy'],
+      dtype='object')","{'n_estimators': 200, 'max_depth': 10}",0.5135746606334842
+outer_1_inner_3,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glszm_ZonePercentage', 'original_ngtdm_Coarseness'],
+      dtype='object')","{'n_estimators': 100, 'max_depth': 10}",0.6064814814814815
+outer_1_inner_4,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_ZonePercentage'],
+      dtype='object')","{'n_estimators': 50, 'max_depth': 20}",0.8004807692307693
+outer_1_inner_5,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glrlm_ShortRunEmphasis',
+       'original_glszm_SizeZoneNonUniformityNormalized',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'n_estimators': 50, 'max_depth': 10}",0.5122549019607844
+outer_2_inner_1,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_LargeDependenceEmphasis',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glrlm_ShortRunEmphasis'],
+      dtype='object')","{'n_estimators': 50, 'max_depth': 10}",0.576923076923077
+outer_2_inner_2,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glszm_SizeZoneNonUniformityNormalized',
+       'original_glszm_SmallAreaEmphasis', 'original_glszm_ZoneEntropy'],
+      dtype='object')","{'n_estimators': 200, 'max_depth': 10}",0.7285067873303168
+outer_2_inner_3,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_gldm_SmallDependenceLowGrayLevelEmphasis',
+       'original_glszm_ZonePercentage', 'original_ngtdm_Coarseness'],
+      dtype='object')","{'n_estimators': 200, 'max_depth': 10}",0.6851851851851852
+outer_2_inner_4,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_ShortRunEmphasis',
+       'original_glszm_SizeZoneNonUniformityNormalized',
+       'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'n_estimators': 200, 'max_depth': 10}",0.6435185185185186
+outer_2_inner_5,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_ZonePercentage'],
+      dtype='object')","{'n_estimators': 200, 'max_depth': 20}",0.7947368421052632
+outer_3_inner_1,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_LargeDependenceLowGrayLevelEmphasis',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glszm_ZonePercentage', 'original_ngtdm_Coarseness'],
+      dtype='object')","{'n_estimators': 50, 'max_depth': 20}",0.7975000000000001
+outer_3_inner_2,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'n_estimators': 50, 'max_depth': 10}",0.6031746031746033
+outer_3_inner_3,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_ZoneEntropy',
+       'original_glszm_ZonePercentage'],
+      dtype='object')","{'n_estimators': 200, 'max_depth': 10}",0.6289592760180995
+outer_3_inner_4,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_ZoneEntropy',
+       'original_ngtdm_Coarseness'],
+      dtype='object')","{'n_estimators': 50, 'max_depth': 20}",0.7624434389140271
+outer_3_inner_5,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_LargeDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glrlm_RunPercentage', 'original_glrlm_ShortRunEmphasis'],
+      dtype='object')","{'n_estimators': 200, 'max_depth': 20}",0.6583333333333333
+outer_4_inner_1,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceLowGrayLevelEmphasis',
+       'original_glszm_SmallAreaEmphasis', 'original_glszm_ZoneEntropy',
+       'original_ngtdm_Coarseness'],
+      dtype='object')","{'n_estimators': 100, 'max_depth': 20}",0.6866028708133971
+outer_4_inner_2,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_ZonePercentage'],
+      dtype='object')","{'n_estimators': 50, 'max_depth': 10}",0.7100000000000001
+outer_4_inner_3,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glszm_SmallAreaEmphasis', 'original_glszm_ZonePercentage',
+       'original_ngtdm_Coarseness'],
+      dtype='object')","{'n_estimators': 50, 'max_depth': 10}",0.7991071428571429
+outer_4_inner_4,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_gldm_SmallDependenceLowGrayLevelEmphasis',
+       'original_glszm_ZonePercentage', 'original_ngtdm_Coarseness'],
+      dtype='object')","{'n_estimators': 100, 'max_depth': 10}",0.7232142857142857
+outer_4_inner_5,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glrlm_RunPercentage', 'original_glrlm_ShortRunEmphasis'],
+      dtype='object')","{'n_estimators': 200, 'max_depth': 20}",0.6035353535353536
+outer_5_inner_1,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glszm_SizeZoneNonUniformityNormalized',
+       'original_glszm_SmallAreaEmphasis', 'original_glszm_ZonePercentage'],
+      dtype='object')","{'n_estimators': 100, 'max_depth': 20}",0.56
+outer_5_inner_2,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glszm_ZonePercentage', 'original_ngtdm_Coarseness'],
+      dtype='object')","{'n_estimators': 200, 'max_depth': 10}",0.7737556561085972
+outer_5_inner_3,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_ZonePercentage'],
+      dtype='object')","{'n_estimators': 100, 'max_depth': 20}",0.48883928571428575
+outer_5_inner_4,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_ZonePercentage'],
+      dtype='object')","{'n_estimators': 100, 'max_depth': 20}",0.7546296296296295
+outer_5_inner_5,"Index(['original_shape_SurfaceVolumeRatio',
+       'original_gldm_SmallDependenceEmphasis',
+       'original_glrlm_RunLengthNonUniformityNormalized',
+       'original_glrlm_ShortRunEmphasis', 'original_glszm_SmallAreaEmphasis'],
+      dtype='object')","{'n_estimators': 50, 'max_depth': 10}",0.6802884615384616

@@ -1,0 +1,18 @@
+{
+    "Aggregation": "weighted",
+    "Classiier": "randomf",
+    "Selector": "mrmr",
+    "Average_AUC": 0.7210014005602241,
+    "Standard_Deviation_AUC": 0.08416507719817157,
+    "Most_Common_Hyperparameters": {
+        "n_estimators": 50,
+        "max_depth": 10
+    },
+    "Selected_Features": [
+        "original_shape_Flatness",
+        "original_shape_SurfaceVolumeRatio",
+        "weight",
+        "original_glcm_Correlation",
+        "original_glszm_SmallAreaEmphasis"
+    ]
+}

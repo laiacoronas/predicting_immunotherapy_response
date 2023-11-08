@@ -1,0 +1,18 @@
+{
+    "Aggregation": "weighted",
+    "Classiier": "logisticregression",
+    "Selector": "anova",
+    "Average_AUC": 0.7167577030812324,
+    "Standard_Deviation_AUC": 0.09536757063397988,
+    "Most_Common_Hyperparameters": {
+        "C": 1.0,
+        "l1_ratio": 1.0
+    },
+    "Selected_Features": [
+        "original_shape_Flatness",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glszm_ZonePercentage",
+        "original_shape_Elongation",
+        "original_glszm_SizeZoneNonUniformityNormalized"
+    ]
+}

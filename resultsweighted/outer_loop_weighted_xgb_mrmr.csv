@@ -1,0 +1,6 @@
+Fold,Features,Classifier_Params,AUC
+outer_fold_1,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'weight', 'original_glszm_SmallAreaEmphasis', 'original_glcm_Correlation']","{'learning_rate': 0.1, 'n_estimators': 150, 'max_depth': 10, 'subsample': 1.0}",0.6666666666666667
+outer_fold_2,"['original_shape_Flatness', 'weight', 'original_glcm_Correlation', 'original_shape_SurfaceVolumeRatio', 'original_shape_Elongation']","{'n_estimators': 100, 'subsample': 0.8, 'learning_rate': 0.2, 'max_depth': 20}",0.7205882352941176
+outer_fold_3,"['original_shape_Flatness', 'weight', 'original_shape_SurfaceVolumeRatio', 'original_shape_Elongation', 'original_glcm_Correlation']","{'max_depth': 10, 'n_estimators': 100, 'learning_rate': 0.3, 'subsample': 1.0}",0.5882352941176471
+outer_fold_4,"['original_shape_Flatness', 'original_glcm_Correlation', 'original_shape_SurfaceVolumeRatio', 'weight', 'original_glszm_SmallAreaEmphasis']","{'n_estimators': 100, 'max_depth': 20, 'subsample': 0.9, 'learning_rate': 0.1}",0.6647058823529411
+outer_fold_5,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'weight', 'original_glcm_Correlation', 'original_glszm_SizeZoneNonUniformityNormalized']","{'learning_rate': 0.2, 'n_estimators': 150, 'subsample': 1.0, 'max_depth': 10}",0.7202380952380952
