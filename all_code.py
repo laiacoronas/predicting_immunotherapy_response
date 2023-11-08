@@ -221,7 +221,7 @@ def main(argv):
     name=sel+'_'+cls
     rdir='/Users/laiacoronassala/Desktop/VHIO/codisdef/aggregationmethods/186/'+agg+'.csv'
     cdir='/Users/laiacoronassala/Desktop/VHIO/codisdef/clinical_biological_db_20230905.csv'
-    odir='/Users/laiacoronassala/Desktop/VHIO/codisdef/RESULTSFDEF'+agg
+    odir='/Users/laiacoronassala/Desktop/predicting_immunotherapy_response/results'+agg
     os.makedirs(odir, exist_ok=True)
     rad_df=pd.read_csv(rdir)
     clin_df=pd.read_csv(cdir)
