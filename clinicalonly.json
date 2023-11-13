@@ -1,0 +1,23 @@
+{
+    "Average AUC": 0.700546218487395,
+    "Standard Deviation AUC": 0.05549255739676557,
+    "Most Common Hyperparameters": {
+        "C": 0.1,
+        "l1_ratio": 0.3
+    },
+    "Model Coefficients": {
+        "n_lesions": -0.46329850925610877,
+        "liver_met": -0.23161564906359997,
+        "baseline_lymphos": 0.22484995250804846,
+        "age": 0.12797879059418588,
+        "baseline_num_met_organs": -0.20051443919232578
+    },
+    "Model Intercept": -0.24594733149474035,
+    "Selected Features": [
+        "n_lesions",
+        "liver_met",
+        "baseline_lymphos",
+        "age",
+        "baseline_num_met_organs"
+    ]
+}
