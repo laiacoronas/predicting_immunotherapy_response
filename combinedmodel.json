@@ -1,6 +1,6 @@
 {
-    "Average AUC": 0.7723319327731092,
-    "Standard Deviation AUC": 0.08603174315001302,
+    "Average_AUC": 0.7723319327731092,
+    "Standard_Deviation_AUC": 0.08603174315001302,
     "Most Common Hyperparameters": {
         "C": 0.1,
         "l1_ratio": 0.3
