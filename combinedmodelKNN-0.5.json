@@ -1,0 +1,23 @@
+{
+    "Average AUC": 0.7928781512605042,
+    "Standard Deviation AUC": 0.038432617286969284,
+    "Most Common Hyperparameters": {
+        "C": 0.1,
+        "l1_ratio": 0.3
+    },
+    "Model Coefficients": {
+        "original_shape_Flatness": -0.4332170097680685,
+        "original_shape_SurfaceVolumeRatio": 0.34963129906791024,
+        "original_glrlm_ShortRunEmphasis": 0.3413864827174373,
+        "baseline_lymphos": 0.2764745720256597,
+        "n_lesions": -0.32484774567477614
+    },
+    "Model Intercept": -0.24080049390512703,
+    "Selected Features": [
+        "original_shape_Flatness",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glrlm_ShortRunEmphasis",
+        "baseline_lymphos",
+        "n_lesions"
+    ]
+}
