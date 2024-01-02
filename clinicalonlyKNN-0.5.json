@@ -1,18 +1,18 @@
 {
-    "Average AUC": 0.7075770308123249,
-    "Standard Deviation AUC": 0.05166060886009067,
+    "Average AUC": 0.6993417366946779,
+    "Standard Deviation AUC": 0.052756930441798085,
     "Most Common Hyperparameters": {
         "C": 0.1,
         "l1_ratio": 0.3
     },
     "Model Coefficients": {
-        "n_lesions": -0.4632492453140789,
-        "liver_met": -0.2316579426468469,
-        "baseline_lymphos": 0.22483266265944032,
-        "baseline_num_met_organs": -0.20049761754093098,
-        "age": 0.12799581267774204
+        "n_lesions": -0.46324891891909575,
+        "liver_met": -0.23163939729832433,
+        "baseline_lymphos": 0.2248579621671658,
+        "baseline_num_met_organs": -0.2005367425183225,
+        "age": 0.12797717098691505
     },
-    "Model Intercept": -0.24590038619859428,
+    "Model Intercept": -0.24593114526473028,
     "Selected Features": [
         "n_lesions",
         "liver_met",
