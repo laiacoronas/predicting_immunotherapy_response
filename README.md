@@ -1,6 +1,6 @@
-# predicting_immunotherapy_response
+# Predicting_immunotherapy_response
 
-This project aims to predict the outcome of oncologic patients from clinical and image features. Image features are acquired through the segmentation and feature extraction with PyRadiomics of computed tomographic images of solid tumors. The end-point considered is the response or unresponse of the immunotherapy according to RECIST criteria at 5 month from the starting date of the treatment.
+This project aims to predict the outcome of oncologic patients with clinical and image data. Image features are acquired through the segmentation and feature extraction with PyRadiomics of computed tomographic images of solid tumors. The end-point considered is the response or unresponse of the immunotherapy according to RECIST criteria at 5 month from the starting date of the treatment.
 
 The project can be subdivided into diferent steps:
 
@@ -20,5 +20,5 @@ The project can be subdivided into diferent steps:
        - XGBoost
 All the results are generated computing the mean AUC of each fold in a nested cross validation approach. In addition, in each fold we save the results for the best hyperparameters and most predictive features, generating therefore a dictionary of counts.
 
-2. Comparing the results between the best algorithm in the above-mentioned section and the results obtained using clinical or combined (clinical + radiomic) data. This allows as to know if either clinical or radiomic features add predictive power to the model.
-3. Accurately visualizing the results, performing statistical test to identify significant differences and providing explainability to the model (3D maps + shap values).
+2. Comparing the results between the best algorithm in the above-mentioned section and the results obtained using clinical or combined (clinical + radiomic data) signatures. This allows as to know if either clinical or radiomic features add predictive power to the model.
+3. Accurately visualizing the results, performing statistical tests to identify significant differences and providing explainability to the model (3D maps + shap values).
