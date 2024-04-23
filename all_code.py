@@ -171,6 +171,9 @@ def nested_cv(X, y, outer_cv, inner_cv, cls, sel):
         y_pred_outer = final_model.predict_proba(X_val_outer[most_common_features])[:, 1]
         auc_outer = roc_auc_score(y_val_outer, y_pred_outer)
         
+        coefficients = final_model.coef_[0]
+        intercept = final_model.intercept_[0]
+        
         outer_results.append({
             'Fold': 'outer_fold_' + str(outer_fold_counter),  # Using +1 for better naming consistency
             'Features': most_common_features,
@@ -203,7 +206,8 @@ def get_json(outer_results_df, odir, agg, cls, sel, name):
         'Average_AUC': avg_auc,
         'Standard_Deviation_AUC': std_auc,
         'Most_Common_Hyperparameters': most_common_hyperparams,
-        'Selected_Features': most_common_features
+        'Selected_Features': most_common_features,
+        'Model Coefficients': dict(zip(most_common_features, coefficients))
     }
     
     final_model_path = os.path.join(odir, name+".json")
