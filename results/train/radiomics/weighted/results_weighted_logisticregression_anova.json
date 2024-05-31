@@ -1,0 +1,26 @@
+{
+    "classifier": "logisticregression",
+    "selector": "anova",
+    "feature_aggregation": "weighted",
+    "average_auc": 0.747079831932773,
+    "std_dev_auc": 0.0867839967657735,
+    "hyperparameters": {
+        "l1_ratio": 0.5,
+        "C": 1.0
+    },
+    "features": [
+        "original_shape_Flatness",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glszm_ZonePercentage",
+        "original_gldm_SmallDependenceEmphasis",
+        "original_glszm_SizeZoneNonUniformityNormalized"
+    ],
+    "model_coefficients": {
+        "original_shape_Flatness": -1.9426405343551676,
+        "original_shape_SurfaceVolumeRatio": 1.6351256426819745,
+        "original_glszm_ZonePercentage": 0.08348589564849568,
+        "original_gldm_SmallDependenceEmphasis": 0.0,
+        "original_glszm_SizeZoneNonUniformityNormalized": 1.9657989274051602
+    },
+    "model_intercept": -0.22868425698318992
+}

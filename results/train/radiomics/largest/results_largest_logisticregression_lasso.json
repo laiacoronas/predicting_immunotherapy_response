@@ -1,0 +1,26 @@
+{
+    "classifier": "logisticregression",
+    "selector": "lasso",
+    "feature_aggregation": "largest",
+    "average_auc": 0.7423389355742297,
+    "std_dev_auc": 0.025082915329935958,
+    "hyperparameters": {
+        "l1_ratio": 0.3,
+        "C": 0.1
+    },
+    "features": [
+        "original_shape_SurfaceVolumeRatio",
+        "n_lesions",
+        "baseline_num_met_organs",
+        "original_glszm_SmallAreaEmphasis",
+        "original_glszm_SizeZoneNonUniformityNormalized"
+    ],
+    "model_coefficients": {
+        "original_shape_SurfaceVolumeRatio": 0.11484128746245814,
+        "n_lesions": -0.1692188826315943,
+        "baseline_num_met_organs": -0.18543980402682264,
+        "original_glszm_SmallAreaEmphasis": 0.0,
+        "original_glszm_SizeZoneNonUniformityNormalized": 0.0
+    },
+    "model_intercept": 0.919665603694829
+}

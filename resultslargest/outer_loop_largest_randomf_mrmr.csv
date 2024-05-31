@@ -1,6 +1,0 @@
-Fold,Features,Classifier_Params,AUC
-outer_fold_1,"['original_shape_SurfaceVolumeRatio', 'original_glszm_SmallAreaEmphasis', 'original_ngtdm_Coarseness', 'original_firstorder_RootMeanSquared', 'original_glszm_GrayLevelNonUniformityNormalized']","{'max_depth': 20, 'n_estimators': 50}",0.5630252100840336
-outer_fold_2,"['original_shape_SurfaceVolumeRatio', 'original_gldm_LargeDependenceEmphasis', 'original_glszm_SmallAreaEmphasis', 'original_ngtdm_Coarseness', 'original_shape_Flatness']","{'n_estimators': 200, 'max_depth': 10}",0.6735294117647058
-outer_fold_3,"['original_shape_SurfaceVolumeRatio', 'original_ngtdm_Coarseness', 'original_gldm_LargeDependenceEmphasis', 'original_glszm_SmallAreaEmphasis', 'original_glrlm_HighGrayLevelRunEmphasis']","{'max_depth': 20, 'n_estimators': 200}",0.7338235294117648
-outer_fold_4,"['original_shape_SurfaceVolumeRatio', 'original_glszm_SmallAreaEmphasis', 'original_ngtdm_Coarseness', 'original_shape_Flatness', 'original_glszm_SmallAreaHighGrayLevelEmphasis']","{'max_depth': 20, 'n_estimators': 200}",0.8529411764705883
-outer_fold_5,"['original_shape_SurfaceVolumeRatio', 'original_glszm_SmallAreaEmphasis', 'original_gldm_LargeDependenceEmphasis', 'original_ngtdm_Coarseness', 'original_shape_Flatness']","{'max_depth': 20, 'n_estimators': 50}",0.7187500000000001

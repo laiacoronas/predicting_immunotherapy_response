@@ -1,0 +1,25 @@
+{
+    "classifier": "randomf",
+    "selector": "mrmr",
+    "feature_aggregation": "unweighted",
+    "average_auc": 0.7110609243697479,
+    "std_dev_auc": 0.07030396913679496,
+    "hyperparameters": {
+        "max_depth": 20,
+        "n_estimators": 100
+    },
+    "features": [
+        "original_shape_Flatness",
+        "n_lesions",
+        "baseline_num_met_organs",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glcm_Correlation"
+    ],
+    "feature_importances": {
+        "original_shape_Flatness": 0.2431251627629388,
+        "n_lesions": 0.1550498113208026,
+        "baseline_num_met_organs": 0.10751906595386178,
+        "original_shape_SurfaceVolumeRatio": 0.2605691412710642,
+        "original_glcm_Correlation": 0.23373681869133264
+    }
+}

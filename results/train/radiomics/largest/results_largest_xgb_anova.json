@@ -1,0 +1,27 @@
+{
+    "classifier": "xgb",
+    "selector": "anova",
+    "feature_aggregation": "largest",
+    "average_auc": 0.6498634453781513,
+    "std_dev_auc": 0.0778654336774368,
+    "hyperparameters": {
+        "learning_rate": 0.2,
+        "n_estimators": 100,
+        "subsample": 1.0,
+        "max_depth": 5
+    },
+    "features": [
+        "original_shape_SurfaceVolumeRatio",
+        "original_glrlm_ShortRunEmphasis",
+        "original_gldm_LargeDependenceEmphasis",
+        "original_glrlm_RunLengthNonUniformityNormalized",
+        "original_glrlm_RunPercentage"
+    ],
+    "feature_importances": {
+        "original_shape_SurfaceVolumeRatio": 0.26640623807907104,
+        "original_glrlm_ShortRunEmphasis": 0.18147028982639313,
+        "original_gldm_LargeDependenceEmphasis": 0.22610053420066833,
+        "original_glrlm_RunLengthNonUniformityNormalized": 0.16940359771251678,
+        "original_glrlm_RunPercentage": 0.1566193401813507
+    }
+}

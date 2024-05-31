@@ -1,0 +1,23 @@
+{
+    "average_auc": 0.6740966386554622,
+    "std_dev_auc": 0.0815120876512885,
+    "hyperparameters": {
+        "C": 10,
+        "l1_ratio": 1.0
+    },
+    "model_coefficients": {
+        "baseline_lymphos": 0.48106591585961606,
+        "baseline_platelets": -0.1958881312616229,
+        "treatment": 1.0373391737881337,
+        "liver_met": -0.9057745735076754,
+        "baseline_albumin": 0.021542477443513806
+    },
+    "model_intercept": -0.5716129947626933,
+    "features": [
+        "baseline_lymphos",
+        "baseline_platelets",
+        "treatment",
+        "liver_met",
+        "baseline_albumin"
+    ]
+}

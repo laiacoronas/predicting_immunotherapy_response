@@ -1,0 +1,27 @@
+{
+    "classifier": "xgb",
+    "selector": "mrmr",
+    "feature_aggregation": "unweighted",
+    "average_auc": 0.6905532212885155,
+    "std_dev_auc": 0.07122469462220306,
+    "hyperparameters": {
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "max_depth": 3,
+        "n_estimators": 100
+    },
+    "features": [
+        "original_shape_Flatness",
+        "n_lesions",
+        "baseline_num_met_organs",
+        "original_glszm_SizeZoneNonUniformityNormalized",
+        "original_glcm_Correlation"
+    ],
+    "feature_importances": {
+        "original_shape_Flatness": 0.20201291143894196,
+        "n_lesions": 0.2989557385444641,
+        "baseline_num_met_organs": 0.17552809417247772,
+        "original_glszm_SizeZoneNonUniformityNormalized": 0.16433857381343842,
+        "original_glcm_Correlation": 0.1591646820306778
+    }
+}

@@ -1,6 +1,0 @@
-Fold,Features,Classifier_Params,AUC
-outer_fold_1,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'weight', 'original_glszm_SmallAreaEmphasis', 'original_glcm_Correlation']","{'n_estimators': 50, 'max_depth': 10}",0.6834733893557423
-outer_fold_2,"['original_shape_Flatness', 'weight', 'original_glcm_Correlation', 'original_shape_SurfaceVolumeRatio', 'original_shape_Elongation']","{'n_estimators': 50, 'max_depth': 20}",0.7661764705882353
-outer_fold_3,"['original_shape_Flatness', 'weight', 'original_shape_SurfaceVolumeRatio', 'original_shape_Elongation', 'original_glcm_Correlation']","{'n_estimators': 200, 'max_depth': 20}",0.6073529411764707
-outer_fold_4,"['original_shape_Flatness', 'original_glcm_Correlation', 'original_shape_SurfaceVolumeRatio', 'weight', 'original_glszm_SmallAreaEmphasis']","{'n_estimators': 100, 'max_depth': 20}",0.7176470588235293
-outer_fold_5,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'weight', 'original_glcm_Correlation', 'original_glszm_SizeZoneNonUniformityNormalized']","{'n_estimators': 50, 'max_depth': 10}",0.8303571428571428

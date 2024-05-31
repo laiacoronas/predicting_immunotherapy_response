@@ -1,0 +1,6 @@
+Fold,Features,Classifier_Params,AUC
+outer_fold_1,"['original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'original_glszm_SmallAreaEmphasis', 'original_glszm_ZonePercentage', 'n_lesions']","{'n_estimators': 200, 'max_depth': 20}",0.6647058823529411
+outer_fold_2,"['original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'n_lesions', 'original_glrlm_ShortRunEmphasis', 'original_glszm_ZonePercentage']","{'max_depth': 20, 'n_estimators': 100}",0.7470588235294118
+outer_fold_3,"['original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'n_lesions', 'original_glrlm_RunLengthNonUniformityNormalized', 'original_glrlm_ShortRunEmphasis']","{'max_depth': 20, 'n_estimators': 200}",0.7176470588235294
+outer_fold_4,"['original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'original_glrlm_RunLengthNonUniformityNormalized', 'original_glrlm_ShortRunEmphasis', 'n_lesions']","{'n_estimators': 50, 'max_depth': 10}",0.7217261904761905
+outer_fold_5,"['original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'original_glszm_ZonePercentage', 'original_glrlm_ShortRunEmphasis', 'n_lesions']","{'max_depth': 10, 'n_estimators': 100}",0.7410714285714286

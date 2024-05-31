@@ -1,0 +1,8 @@
+matplotlib==3.9.0
+numpy==1.26.4
+pandas==2.2.2
+scikit_learn==1.4.2
+seaborn==0.13.2
+shap==0.45.1
+xgboost==2.0.3
+mrmr_selection=0.2.8

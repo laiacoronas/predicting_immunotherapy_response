@@ -1,0 +1,27 @@
+{
+    "classifier": "xgb",
+    "selector": "lasso",
+    "feature_aggregation": "weighted",
+    "average_auc": 0.6670868347338936,
+    "std_dev_auc": 0.11030415731728355,
+    "hyperparameters": {
+        "subsample": 0.8,
+        "learning_rate": 0.1,
+        "max_depth": 5,
+        "n_estimators": 75
+    },
+    "features": [
+        "original_shape_Flatness",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glszm_SizeZoneNonUniformityNormalized",
+        "n_lesions",
+        "weight"
+    ],
+    "feature_importances": {
+        "original_shape_Flatness": 0.11376598477363586,
+        "original_shape_SurfaceVolumeRatio": 0.14097827672958374,
+        "original_glszm_SizeZoneNonUniformityNormalized": 0.13758492469787598,
+        "n_lesions": 0.121675044298172,
+        "weight": 0.48599570989608765
+    }
+}

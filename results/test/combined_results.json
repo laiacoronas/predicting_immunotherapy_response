@@ -1,0 +1,68 @@
+{
+    "agg": "combined",
+    "AUC-ROC": 0.7447916666666666,
+    "AUC-PR": 0.5544086369038931,
+    "Brier Score": 0.20198724503562127,
+    "Confusion Matrix": [
+        [
+            21,
+            3
+        ],
+        [
+            4,
+            4
+        ]
+    ],
+    "Optimal Threshold": 0.543646321539237,
+    "Sensitivity": 0.5,
+    "Specificity": 0.875,
+    "Predicted Probabilities": {
+        "Predict008": 0.2592798763109287,
+        "Predict011": 0.4384511844690188,
+        "Predict033": 0.34977063281602466,
+        "Predict037": 0.3090609802125013,
+        "Predict034": 0.33976412058756933,
+        "Predict009": 0.4475663641791078,
+        "Predict032": 0.524772421804494,
+        "Predict025": 0.5381037904159045,
+        "Predict030": 0.6571117890636426,
+        "Predict012": 0.21176370831359842,
+        "Predict023": 0.9184934359293667,
+        "Predict002": 0.29202917221936586,
+        "Predict001": 0.26475890702205784,
+        "Predict038": 0.5047605338279478,
+        "Predict004": 0.12891599812164894,
+        "Predict015": 0.45348431789168975,
+        "Predict003": 0.6328898686071,
+        "Predict016": 0.36607357094709475,
+        "Predict007": 0.5422871554344467,
+        "Predict020": 0.5717239902532743,
+        "Predict019": 0.3636087083920029,
+        "Predict014": 0.8873692454774806,
+        "Predict036": 0.184837550971642,
+        "Predict026": 0.543646321539237,
+        "Predict028": 0.3542418452686802,
+        "Predict018": 0.5547503750081348,
+        "Predict041": 0.17066950287708035,
+        "Predict005": 0.8063277018045595,
+        "Predict017": 0.22722733444917778,
+        "Predict022": 0.5328744308658186,
+        "Predict029": 0.3721449027210861,
+        "Predict027": 0.38768787528926507
+    },
+    "Model Coefficients": {
+        "original_shape_Flatness": -0.5300457102954549,
+        "baseline_num_met_organs": -0.19651501186924641,
+        "original_shape_SurfaceVolumeRatio": 0.3947390462913677,
+        "original_glszm_SizeZoneNonUniformityNormalized": 0.35817294161765295,
+        "original_glrlm_ShortRunEmphasis": 0.1518558424007954
+    },
+    "Model Intercept": -0.23530067582899167,
+    "Feature Names": [
+        "original_shape_Flatness",
+        "baseline_num_met_organs",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glszm_SizeZoneNonUniformityNormalized",
+        "original_glrlm_ShortRunEmphasis"
+    ]
+}

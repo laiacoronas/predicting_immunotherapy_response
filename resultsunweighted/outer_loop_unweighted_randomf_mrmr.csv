@@ -1,6 +1,0 @@
-Fold,Features,Classifier_Params,AUC
-outer_fold_1,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glcm_Correlation', 'original_glszm_SmallAreaEmphasis', 'original_shape_Elongation']","{'n_estimators': 100, 'max_depth': 10}",0.6204481792717087
-outer_fold_2,"['original_shape_Flatness', 'original_glcm_Correlation', 'original_shape_Elongation', 'original_shape_SurfaceVolumeRatio', 'original_glszm_ZonePercentage']","{'n_estimators': 50, 'max_depth': 20}",0.6617647058823529
-outer_fold_3,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glcm_Correlation', 'original_glszm_SmallAreaEmphasis', 'original_shape_Elongation']","{'max_depth': 10, 'n_estimators': 50}",0.6808823529411764
-outer_fold_4,"['original_shape_Flatness', 'original_glcm_Correlation', 'original_shape_SurfaceVolumeRatio', 'original_glszm_SmallAreaEmphasis', 'original_shape_Elongation']","{'max_depth': 10, 'n_estimators': 100}",0.663235294117647
-outer_fold_5,"['original_shape_Flatness', 'original_glcm_Correlation', 'original_glszm_SmallAreaEmphasis', 'original_shape_SurfaceVolumeRatio', 'original_shape_Elongation']","{'n_estimators': 50, 'max_depth': 20}",0.7708333333333333

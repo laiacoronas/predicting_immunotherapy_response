@@ -1,0 +1,68 @@
+{
+    "agg": "results_3largest_logisticregression_lasso",
+    "AUC-ROC": 0.6354166666666667,
+    "AUC-PR": 0.3932597979977012,
+    "Brier Score": 0.3499488887172952,
+    "Confusion Matrix": [
+        [
+            20,
+            4
+        ],
+        [
+            5,
+            3
+        ]
+    ],
+    "Optimal Threshold": 0.9290401650471944,
+    "Sensitivity": 0.375,
+    "Specificity": 0.8333333333333334,
+    "Predicted Probabilities": {
+        "Predict008": 0.37326827159632964,
+        "Predict011": 0.704594455467225,
+        "Predict033": 0.5166617050697224,
+        "Predict037": 0.5243668468404112,
+        "Predict034": 0.3665187162716799,
+        "Predict009": 0.7588789354286353,
+        "Predict032": 0.951670882397787,
+        "Predict025": 0.25291473377477725,
+        "Predict030": 0.9604885857772356,
+        "Predict012": 0.2494856134726786,
+        "Predict023": 0.9904674853839727,
+        "Predict002": 0.5736655912359621,
+        "Predict001": 0.32349726873057494,
+        "Predict038": 0.5019279489384324,
+        "Predict004": 0.11358943370765677,
+        "Predict015": 0.7728680719078458,
+        "Predict003": 0.6211540004550605,
+        "Predict016": 0.4504182474299905,
+        "Predict007": 0.9682580324093777,
+        "Predict020": 0.9917616430479926,
+        "Predict019": 0.5204768471852802,
+        "Predict014": 0.9997519373222493,
+        "Predict036": 0.3566534227881675,
+        "Predict026": 0.9290401650471944,
+        "Predict028": 0.5924650715315828,
+        "Predict018": 0.9021372165246809,
+        "Predict041": 0.1956468190814022,
+        "Predict005": 0.9896600222135283,
+        "Predict017": 0.22341796260940086,
+        "Predict022": 0.8465385544818518,
+        "Predict029": 0.5906314057341581,
+        "Predict027": 0.46540018070233974
+    },
+    "Model Coefficients": {
+        "original_shape_Flatness": -1.1512587504122689,
+        "n_lesions": -0.09348760950821143,
+        "baseline_num_met_organs": -0.22501893007762014,
+        "original_shape_SurfaceVolumeRatio": 1.3731853076245173,
+        "original_glszm_ZonePercentage": 0.5752836952083069
+    },
+    "Model Intercept": 1.055746129635317,
+    "Feature Names": [
+        "original_shape_Flatness",
+        "n_lesions",
+        "baseline_num_met_organs",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glszm_ZonePercentage"
+    ]
+}

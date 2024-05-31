@@ -1,6 +1,0 @@
-Fold,Features,Classifier_Params,AUC
-outer_fold_1,"['original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'original_glrlm_ShortRunEmphasis', 'original_glszm_ZonePercentage', 'original_glrlm_RunLengthNonUniformityNormalized']","{'l1_ratio': 0.5, 'C': 1.0}",0.7366946778711484
-outer_fold_2,"['original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'original_glrlm_ShortRunEmphasis', 'original_glrlm_RunLengthNonUniformityNormalized', 'original_glszm_SizeZoneNonUniformityNormalized']","{'l1_ratio': 1.0, 'C': 0.1}",0.7029411764705882
-outer_fold_3,"['original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'original_glrlm_ShortRunEmphasis', 'original_glszm_ZonePercentage', 'original_ngtdm_Coarseness']","{'l1_ratio': 1.0, 'C': 10.0}",0.6705882352941177
-outer_fold_4,"['original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'original_ngtdm_Coarseness', 'original_glszm_ZonePercentage', 'original_gldm_SmallDependenceLowGrayLevelEmphasis']","{'C': 1.0, 'l1_ratio': 1.0}",0.7264705882352941
-outer_fold_5,"['original_shape_SurfaceVolumeRatio', 'original_gldm_SmallDependenceEmphasis', 'original_glszm_ZonePercentage', 'original_glrlm_RunLengthNonUniformityNormalized', 'original_glrlm_ShortRunEmphasis']","{'l1_ratio': 1.0, 'C': 0.1}",0.7470238095238094

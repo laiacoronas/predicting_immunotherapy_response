@@ -1,0 +1,23 @@
+{
+    "average_auc": 0.8013235294117645,
+    "std_dev_auc": 0.050127427873158464,
+    "hyperparameters": {
+        "C": 0.1,
+        "l1_ratio": 0.3
+    },
+    "model_coefficients": {
+        "original_shape_Flatness": -0.5300457102954549,
+        "baseline_num_met_organs": -0.19651501186924641,
+        "original_shape_SurfaceVolumeRatio": 0.3947390462913677,
+        "original_glszm_SizeZoneNonUniformityNormalized": 0.35817294161765295,
+        "original_glrlm_ShortRunEmphasis": 0.1518558424007954
+    },
+    "model_intercept": -0.23530067582899167,
+    "features": [
+        "original_shape_Flatness",
+        "baseline_num_met_organs",
+        "original_shape_SurfaceVolumeRatio",
+        "original_glszm_SizeZoneNonUniformityNormalized",
+        "original_glrlm_ShortRunEmphasis"
+    ]
+}

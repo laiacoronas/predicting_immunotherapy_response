@@ -1,0 +1,98 @@
+Fold,Features,Classifier_Params,AUC
+outer_1_inner_1,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.7949999999999999
+outer_1_inner_2,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 75, 'max_depth': 3, 'learning_rate': 0.1}",0.625
+outer_1_inner_3,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio', 'original_glrlm_ShortRunEmphasis',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.7737556561085973
+outer_1_inner_4,"Index(['n_lesions', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.6428571428571428
+outer_1_inner_5,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 1.0, 'n_estimators': 50, 'max_depth': 5, 'learning_rate': 0.1}",0.7990196078431373
+outer_2_inner_1,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 5, 'learning_rate': 0.1}",0.7911111111111111
+outer_2_inner_2,"Index(['n_lesions', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio', 'original_glcm_Correlation',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.6606334841628959
+outer_2_inner_3,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 1.0, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.8416289592760181
+outer_2_inner_4,"Index(['n_lesions', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio'],
+      dtype='object')","{'subsample': 1.0, 'n_estimators': 50, 'max_depth': 5, 'learning_rate': 0.1}",0.4783653846153846
+outer_2_inner_5,"Index(['n_lesions', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio', 'original_glrlm_LongRunEmphasis',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.75
+outer_3_inner_1,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.722488038277512
+outer_3_inner_2,"Index(['n_lesions', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio', 'original_glcm_Correlation',
+       'original_glrlm_ShortRunEmphasis',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 75, 'max_depth': 3, 'learning_rate': 0.1}",0.8144796380090498
+outer_3_inner_3,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 1.0, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.6919642857142857
+outer_3_inner_4,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio', 'original_glszm_ZonePercentage'],
+      dtype='object')","{'subsample': 1.0, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.75
+outer_3_inner_5,"Index(['n_lesions', 'original_shape_Flatness',
+       'original_glrlm_ShortRunEmphasis',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 5, 'learning_rate': 0.2}",0.638095238095238
+outer_4_inner_1,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Elongation',
+       'original_shape_Flatness', 'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.7104072398190046
+outer_4_inner_2,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 1.0, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.76
+outer_4_inner_3,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.6602870813397129
+outer_4_inner_4,"Index(['n_lesions', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio', 'original_glcm_Correlation'],
+      dtype='object')","{'subsample': 1.0, 'n_estimators': 75, 'max_depth': 3, 'learning_rate': 0.1}",0.75
+outer_4_inner_5,"Index(['n_lesions', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio', 'original_glcm_Correlation',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 1.0, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.6818181818181818
+outer_5_inner_1,"Index(['n_lesions', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.6666666666666667
+outer_5_inner_2,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio', 'original_glrlm_ShortRunEmphasis',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 1.0, 'n_estimators': 75, 'max_depth': 5, 'learning_rate': 0.1}",0.7601809954751132
+outer_5_inner_3,"Index(['n_lesions', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized',
+       'original_glszm_ZonePercentage'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.708994708994709
+outer_5_inner_4,"Index(['n_lesions', 'baseline_num_met_organs', 'original_shape_Flatness',
+       'original_shape_SurfaceVolumeRatio',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 1.0, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.6971153846153846
+outer_5_inner_5,"Index(['n_lesions', 'original_shape_Flatness',
+       'original_glszm_SizeZoneNonUniformityNormalized'],
+      dtype='object')","{'subsample': 0.8, 'n_estimators': 50, 'max_depth': 3, 'learning_rate': 0.1}",0.6658653846153846

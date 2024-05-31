@@ -1,6 +1,0 @@
-Fold,Features,Classifier_Params,AUC
-outer_fold_1,"['original_shape_Flatness', 'weight', 'original_shape_SurfaceVolumeRatio', 'original_glszm_SizeZoneNonUniformityNormalized', 'original_glszm_ZonePercentage']","{'l1_ratio': 0.3, 'C': 10.0}",0.7366946778711485
-outer_fold_2,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'weight', 'original_glcm_Correlation', 'original_glszm_SizeZoneNonUniformityNormalized']","{'C': 1.0, 'l1_ratio': 1.0}",0.7411764705882353
-outer_fold_3,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glszm_SizeZoneNonUniformityNormalized', 'weight', 'original_glcm_Correlation']","{'l1_ratio': 0.5, 'C': 1.0}",0.7558823529411764
-outer_fold_4,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'weight', 'original_glcm_Correlation', 'original_glszm_SizeZoneNonUniformityNormalized']","{'l1_ratio': 0.5, 'C': 10.0}",0.8441176470588235
-outer_fold_5,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glcm_Correlation', 'weight', 'original_glszm_SizeZoneNonUniformityNormalized']","{'l1_ratio': 0.3, 'C': 1.0}",0.8452380952380952

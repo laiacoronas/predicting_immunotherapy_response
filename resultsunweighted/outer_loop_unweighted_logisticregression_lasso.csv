@@ -1,6 +1,0 @@
-Fold,Features,Classifier_Params,AUC
-outer_fold_1,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glszm_SizeZoneNonUniformityNormalized', 'original_glcm_Correlation', 'original_glszm_SmallAreaEmphasis']","{'l1_ratio': 1.0, 'C': 0.1}",0.6358543417366946
-outer_fold_2,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glcm_Correlation', 'original_glszm_SizeZoneNonUniformityNormalized', 'original_glszm_SmallAreaEmphasis']","{'l1_ratio': 0.5, 'C': 1.0}",0.6970588235294117
-outer_fold_3,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glszm_SizeZoneNonUniformityNormalized', 'original_glszm_SmallAreaEmphasis', 'original_glcm_Correlation']","{'l1_ratio': 0.5, 'C': 0.1}",0.7058823529411765
-outer_fold_4,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glcm_Correlation', 'original_glszm_SizeZoneNonUniformityNormalized', 'original_glszm_SmallAreaEmphasis']","{'l1_ratio': 1.0, 'C': 1.0}",0.7470588235294118
-outer_fold_5,"['original_shape_Flatness', 'original_shape_SurfaceVolumeRatio', 'original_glszm_SizeZoneNonUniformityNormalized', 'original_glcm_Correlation', 'original_glszm_ZonePercentage']","{'l1_ratio': 0.5, 'C': 1.0}",0.8779761904761905

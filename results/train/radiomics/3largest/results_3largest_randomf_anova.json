@@ -1,0 +1,25 @@
+{
+    "classifier": "randomf",
+    "selector": "anova",
+    "feature_aggregation": "3largest",
+    "average_auc": 0.6946813725490196,
+    "std_dev_auc": 0.03343652927281193,
+    "hyperparameters": {
+        "n_estimators": 100,
+        "max_depth": 20
+    },
+    "features": [
+        "original_gldm_SmallDependenceEmphasis",
+        "original_glszm_ZonePercentage",
+        "original_glszm_SizeZoneNonUniformityNormalized",
+        "original_glrlm_RunLengthNonUniformityNormalized",
+        "original_shape_Flatness"
+    ],
+    "feature_importances": {
+        "original_gldm_SmallDependenceEmphasis": 0.21793879295118487,
+        "original_glszm_ZonePercentage": 0.20358526498507323,
+        "original_glszm_SizeZoneNonUniformityNormalized": 0.1732836831976076,
+        "original_glrlm_RunLengthNonUniformityNormalized": 0.1781056655117212,
+        "original_shape_Flatness": 0.22708659335441309
+    }
+}
