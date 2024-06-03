@@ -12,8 +12,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.feature_selection import SelectFromModel, SelectKBest
 from sklearn.linear_model import LogisticRegression 
 from sklearn.metrics import roc_auc_score
-from sklearn.impute import KNNImputer
 import shap
+from sklearn.impute import KNNImputer
 
 #ML
 def lasso_fselection(X_train, y_train, inner_cv):
@@ -132,11 +132,13 @@ def final_model(X, y, outer_results_df, odir):
         'features': most_common_features
     }
     
-    explainer = shap.Explainer(final_model, X[most_common_features])
+    name='clinical'
+    plt.figure()
+    plt.title('SHAP values for the clinical signature')
+    X = X.fillna(0)
+    explainer = shap.Explainer(final_model, X[most_common_features], feature_perturbation="interventional")
     shap_values = explainer.shap_values(X[most_common_features])
     shap.summary_plot(shap_values, X[most_common_features], feature_names=most_common_features)
-    
-    name='clinical'
     final_model_path = os.path.join(odir, name+".json")
     with open(final_model_path, 'w') as f:
        json.dump(results, f, indent=4)

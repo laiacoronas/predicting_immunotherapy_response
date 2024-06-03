@@ -5,6 +5,7 @@ import numpy as np
 import json
 from collections import defaultdict, Counter
 import argparse
+import matplotlib.pyplot as plt
 import time
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import StratifiedKFold, RandomizedSearchCV
@@ -236,6 +237,8 @@ def get_results(X, y, outer_results_df, odir, agg, cls, sel):
         'hyperparameters': most_common_hyperparams,
         'features': most_common_features
     }
+    plt.figure()
+    plt.title('SHAP values for the radiomics signature')
     explainer = shap.LinearExplainer(final_model, X[most_common_features], feature_perturbation="interventional")
     shap_values = explainer.shap_values(X[most_common_features])
     shap.summary_plot(shap_values, X[most_common_features], feature_names=most_common_features)

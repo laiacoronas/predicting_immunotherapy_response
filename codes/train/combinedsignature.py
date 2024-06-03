@@ -132,6 +132,8 @@ def final_model(X, y, outer_results_df, odir):
         'features': most_common_features
     }
     name='combined'
+    plt.figure()
+    plt.title('SHAP values for the combined signature')
     explainer = shap.LinearExplainer(final_model, X[most_common_features], feature_perturbation="interventional")
     shap_values = explainer.shap_values(X[most_common_features])
     shap.summary_plot(shap_values, X[most_common_features], feature_names=most_common_features)
